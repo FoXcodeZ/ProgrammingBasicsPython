@@ -8,4 +8,4 @@ for divisor in dividing_range:
     if user_number % divisor == 0:
         print(f"Podzielna przez {divisor}? {colored('TAK', 'green')}")
     else:
-        print(f"Podzielna przez {divisor}? : {colored('NIE', 'red')}")
+        print(f"Podzielna przez {divisor}? {colored('NIE', 'red')}")
